@@ -3,16 +3,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   app: {
-    head: {
-
-    }
+    head: {}
   },
   css: ['~/assets/css/main.css'],
   modules: [
     'nuxt-highcharts',
     ['nuxt-highcharts', {
       setOptions: {
-        colors: ['#0B60B0', '#FF3333', '#6C22A6', '#333333'],
+        colors: ['#0B60B0', '#FF3333', '#0D9276', '#FE7A36', '#D04848', '#F3B95F', '#FDE767', '#6895D2', '#6962AD', ],
         credits: {
           enabled: false
         },
